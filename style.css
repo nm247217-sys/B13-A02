@@ -31,3 +31,49 @@
     margin: 16px 200px;
     /* margin-right: 200px; */
 }
+
+
+
+/* techwave */
+.banner{
+    background-image:url("./assets/hero-circle.png"), url("./assets/hero-bg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+     flex-direction: column;
+}
+.content{
+    color: #FFFFFF;
+   
+}
+/* about the podcast */
+
+.text-color{
+    color:#00FF88;
+    font-size: 48px;
+}
+.white{
+     background-color: #1A0B2E;
+     color: #FFFFFF;
+     padding: 50px;
+     
+}
+.About-the-podcast{
+    text-align: center;
+    color: #FFFFFF;
+   
+   
+}
+.bold{
+    font-size: 48px;
+    font-weight: 
+}
+.gap{
+ margin-top:20px;
+}
+
+.contianer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 160px;
+}
