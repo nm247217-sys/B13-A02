@@ -1,6 +1,9 @@
 /* navbar */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: #250D44;
+}
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -76,7 +79,8 @@
 }
 .bold{
     font-size: 48px;
-    font-weight: 
+    margin-bottom: 20px;
+    
 }
 .gap{
  margin-top:20px;
@@ -90,12 +94,17 @@
 }
 
 /* Why Choose TechWave */
+.up{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 120px;
+}
 .podcast>* {
     background-color: #230E3D;
     color: #FFFFFF;
     padding: 40px;
-    border:solid red;
-    border-radius: 20px
+    
+    
     
 }
 .audio{
@@ -121,9 +130,76 @@ main{
 }
 .podcast{
     display: grid;
+    gap: 20px;
     
     grid-template-areas: 
     "audio      mobile     mobile"
      "audio     global     global"
      "exclusive exclusive  rich"
 }
+
+
+/* video */
+.video{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 120px 200px;
+    gap: 30px;
+    color: #FFFFFF
+}
+.video-padding{
+    padding: 24px;
+}
+.video-padding span {
+    margin-top: 20px;
+    color: #00FF88;
+}
+.video-color{
+    background-color: #250D44;
+}
+iframe{
+    width: 100%;
+}
+
+/* meet the host */
+.png{
+    width: 30%;
+}
+
+.meet{
+    background-color: #3c245c;
+    color: #FFFFFF;
+    margin: 0 auto;
+   
+}
+.meet h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+.kumar{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 88.5px;
+    margin-bottom: 16px;
+
+}
+.contianer-box{
+    display: flex;
+    align-items: center;
+}
+.contianer-box img{
+    margin: 40px 24px 40px 40px;
+    align-items: center;
+    
+}
+.card{
+    padding: 40px;
+    background-color:#50248a
+}
+ /* footer */
+.footer{
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+ }
